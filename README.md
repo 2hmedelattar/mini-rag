@@ -4,7 +4,7 @@ This is a minimal implementation of the RAG model for question answering.
 
 ## Requirements 
 
-- Python 3.8 or later
+- Python 3.11 or later
 
 #### Install Python using MiniConda
 
@@ -16,4 +16,17 @@ $ conda create -n Mini-RAG-App python = 3.8
 3) Activate the environment:
 ~~~bash 
 $ conda activate Mini-RAG-App
+~~~
+
+
+### (Optional) Setup your command line for better readability
+#### For Windows
+~~~bash
+export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
+~~~
+
+#### For Mac
+~~~bash
+export PS1="%F{green}%n@%m:%~%f
+$ "
 ~~~
